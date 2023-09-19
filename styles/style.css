@@ -2,6 +2,11 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  margin-block: 20px;
+  background-color: #f8fcfc;
+}
+:root {
+  --background-color: azure;
 }
 
 body,
@@ -16,17 +21,13 @@ p {
 }
 
 header {
-  padding: 20px;
-  border-block: solid;
+  padding: 10px;
+  border-style: outset;
   writing-mode: horizontal-tb;
 }
 
 h1 {
   text-align: center;
-}
-
-nav {
-  border: thick double #32a1ce;
 }
 
 h2 {
@@ -38,8 +39,13 @@ main {
   display: flex;
   flex-direction: row;
   margin: auto;
+  border-style: outset;
 }
-
+p {
+  border-style: outset;
+  padding: 20px;
+  margin: 20px;
+}
 img {
   max-width: 200px;
   max-height: 200px;
@@ -54,6 +60,7 @@ ul {
   list-style: none;
   margin: auto;
   width: min-content;
+  border-style: outset;
 }
 
 li {
