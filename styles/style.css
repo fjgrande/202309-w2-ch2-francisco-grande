@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  border: thick double #32a1ce;
+}
+
+h2 {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  max-width: 200px;
+  max-height: 200px;
+  width: 200px;
+  height: 200px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style: none;
+  margin: auto;
+  width: min-content;
+}
+li {
+  margin: 20px 20px;
+}
+
+footer {
+  text-align: center;
+}
