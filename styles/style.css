@@ -3,6 +3,7 @@
 ::after {
   box-sizing: border-box;
 }
+
 body,
 h1,
 h2,
@@ -12,6 +13,12 @@ h5,
 h6,
 p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 20px;
+  border-block: solid;
+  writing-mode: horizontal-tb;
 }
 
 h1 {
@@ -25,16 +32,21 @@ nav {
 h2 {
   text-align: center;
 }
+
 main {
+  padding: 20px 30px;
   display: flex;
   flex-direction: row;
+  margin: auto;
 }
+
 img {
   max-width: 200px;
   max-height: 200px;
   width: 200px;
   height: 200px;
 }
+
 ul {
   display: flex;
   flex-direction: row;
@@ -43,10 +55,12 @@ ul {
   margin: auto;
   width: min-content;
 }
+
 li {
   margin: 20px 20px;
 }
 
 footer {
+  padding: 30px;
   text-align: center;
 }
